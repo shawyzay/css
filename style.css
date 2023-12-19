@@ -1,0 +1,102 @@
+
+        body{
+            background-color:black;
+        }
+        .navbar{
+            background-color:yellow;
+            border-radius:10px;
+        }
+        .navbar :hover{
+            background-color:gainsboro;
+            border-radius:10px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style:none;
+            margin:13px 20px;
+        }
+        .navbar li a{
+            padding:3px 3px;
+            text-decoration:none;
+            color:black;
+        }
+        .navbar li a:hover{
+            padding:3px 3px;
+            text-decoration:none;
+            color:blue;
+        }
+        .name{
+            float:right;
+            padding: 3px 17px ;
+            margin:10px;
+            color:blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .pic{
+            margin: auto;
+            background: yellow;
+            padding:10px 10px;
+            border-radius:10px;
+            
+        }
+        .wlcm{
+            text-align: center;
+            background-color: yellow;
+            color:black;
+            padding:10px;
+        }
+        .pic td{
+            padding:5px 70px;
+        }
+        .pic td :hover{
+            padding:5px 70px;
+            background-color:black;
+        }
+        .intro{
+            text-align:center;
+            width:10px 10px;
+            font-size:35px;
+            color:white;
+        }
+        h2{
+            text-align:center;
+            color:yellow;
+        }
+
+        .popup-container {
+            display: none;
+            background: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .popup-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .popup-container a{
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color:brown;
+        }
+
+        .close-btn {
+            cursor: pointer;
+            color: #007BFF;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .popup-box h1{
+            font-family: 'Times New Roman', Times, serif;
+            color: yellow;
+        }

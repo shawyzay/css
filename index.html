@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dmn yawr!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about us.html">ABOUT US</a></li>
+                <li><a href="contact us.html">CONTACT US</a></li>
+                <div class="name">MY MALL</div>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="wlcm">HI WELCOME!</h1>
+    <p class="intro">we created mini virtual mall and named it as "may mall" <br> hope you will order something thanks!
+    </p>
+    <table class="pic">
+        <tr>
+            <td><button onclick="openPopup('popup1')"><img src="fruits.jfif" alt="your internet sucks"></button></td>
+            <td><button onclick="openPopup('popup2')"><img src="fast food.jfif" alt="your internet sucks"></button></td>
+            <td><button onclick="openPopup('popup3')"><img src="grocery.jfif" alt="your internet sucks"></button></td>
+        </tr>
+    </table>
+    <h2>NOTE: <br>CLICK THE IMAGES FOR ORDERING</h2>
+    <div id="popup1" class="popup-container">
+        <div class="popup-box">
+            <p>
+                click on the name of the item you wnat!
+                <h1>SO WE HAVE</h1><br>
+                <a href="order.html">APPLE</a>|
+                <a href="order.html">BNANA</a>|
+                <a href="order.html">WATER MELON</a>|
+                <a href="order.html">GRAPES</a>|
+            </p>
+            <span class="close-btn" onclick="closePopup('popup1')">Close</span>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup-container">
+        <div class="popup-box">
+            <p>
+                click the name of the item you want!
+                <h1>SO WE HAVE</h1><br>
+                <a href="order.html">ZINGER BURGER</a>|
+                <a href="order.html">BEEF BURGER</a>|
+                <a href="order.html">CHICKEN BURGER</a>|
+                <a href="order.html">VEG BURGER</a>|
+            </p>
+            <span class="close-btn" onclick="closePopup('popup2')">Close</span>
+        </div>
+    </div>
+
+    <div id="popup3" class="popup-container">
+        <div class="popup-box">
+            <p>
+                click on the name of item you want!
+                <h1>SO WE HAVE</h1><br>
+                <a href="order.html">MILK</a>|
+                <a href="order.html">BREAD</a>|
+                <a href="order.html">BUTTER</a>|
+                <a href="order.html">CHESS</a>|
+            </p>
+            <span class="close-btn" onclick="closePopup('popup3')">Close</span>
+        </div>
+    </div>
+
+    <script>
+        function openPopup(popupId) {
+            document.getElementById(popupId).style.display = "flex";
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
